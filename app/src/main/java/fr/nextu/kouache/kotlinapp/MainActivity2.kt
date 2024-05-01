@@ -154,9 +154,9 @@ class MainActivity2 : AppCompatActivity() {
                     val response: Response = client.newCall(request).execute()
                     if (response.isSuccessful) {
                         val responseBody = response.body?.string() ?: ""
-                        notifyNewData(responseBody) // Pass the string directly
+                        notifyNewData(responseBody)
                         withContext(Dispatchers.Main) {
-                            callback(responseBody) // Callback is now executed on the main thread
+                            callback(responseBody)
                         }
                     } else {
                         Log.e("HTTP Request", "Failed with code ${response.code}")
