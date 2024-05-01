@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">KOTLINAPP</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Suivant</string>
+    <string name="previous">Précédant</string>
+
+    <string name="activite2">Deuxieme Activite</string>
+
+    <string name="lorem_ipsum">
+      Bienvenue dans mon app
+    </string>
+    <string name="back">Retour à la vues précédante</string>
+    <string name="textView">Composant 1</string>
+    <string name="channel_name">Movie update</string>
+    <string name="channel_description">A update notification when new movies come</string>
+    <string name="betaseries_api_key">d1e8435aa20d</string>
+    <string name="movies_updated_title">Movies list updated</string>
+
+
+</resources>
